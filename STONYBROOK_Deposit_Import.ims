@@ -1,0 +1,7 @@
+<ImportFile MainTable="Entry" AllowCreate="False">
+  <FieldMappings Length="3">
+    <FieldMapping IgnoreIfAdding="False" IgnoreIfUpdating="False" Field="Field 0" Value="" Import="True" FieldName="ID1" LookupMainTable="True" MainTableLookupGroup="1" SkipRecordIfDataWillBeTruncated="False" IgnoreForMainTableLookupIfBlank="False" SkipIfBlank="False" TableMapping="" Format="" ValueConverter="None" CustomValueConverterCode="" CustomInputConverterCode="" IsLookup="False" />
+    <FieldMapping IgnoreIfAdding="False" IgnoreIfUpdating="False" Field="Field 1" Value="" Import="True" FieldName="ValueDate" LookupMainTable="False" MainTableLookupGroup="1" SkipRecordIfDataWillBeTruncated="False" IgnoreForMainTableLookupIfBlank="False" SkipIfBlank="False" TableMapping="Deposit Date" Format="" ValueConverter="None" CustomValueConverterCode="" CustomInputConverterCode="" IsLookup="False" />
+    <FieldMapping IgnoreIfAdding="False" IgnoreIfUpdating="False" Field="Field 2" Value="" Import="True" FieldName="AccountHold" LookupMainTable="False" MainTableLookupGroup="1" SkipRecordIfDataWillBeTruncated="False" IgnoreForMainTableLookupIfBlank="False" SkipIfBlank="False" TableMapping="EntryDetail" Format="" ValueConverter="None" CustomValueConverterCode="" CustomInputConverterCode="" IsLookup="False" />
+  </FieldMappings>
+</ImportFile>

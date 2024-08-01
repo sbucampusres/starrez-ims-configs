@@ -1,0 +1,7 @@
+<ImportFile MainTable="Entry" AllowCreate="False" RecordAttachment="180094">
+  <FieldMappings Length="3">
+    <FieldMapping IgnoreIfAdding="False" IgnoreIfUpdating="False" Field="Entry ID" FieldIndex="0" Value="" Import="True" FieldName="EntryID" FieldNameID="Entry.EntryID" LookupMainTable="True" MainTableLookupGroup="1" SkipRecordIfDataWillBeTruncated="False" IgnoreForMainTableLookupIfBlank="True" SkipIfBlank="False" TableMapping="" Format="" ValueConverter="None" CustomValueConverterCode="" CustomInputConverterCode="" IsLookup="False" />
+    <FieldMapping IgnoreIfAdding="False" IgnoreIfUpdating="False" Field="Date of First Demo Update" FieldIndex="1" Value="" Import="True" FieldName="ValueDate" FieldNameID="EntryCustomField.ValueDate" LookupMainTable="False" MainTableLookupGroup="1" SkipRecordIfDataWillBeTruncated="False" IgnoreForMainTableLookupIfBlank="False" SkipIfBlank="False" TableMapping="Date of First Demo Update" Format="" ValueConverter="None" CustomValueConverterCode="" CustomInputConverterCode="" IsLookup="False" />
+    <FieldMapping IgnoreIfAdding="False" IgnoreIfUpdating="False" Field="Date of Last Demo Update" FieldIndex="2" Value="" Import="True" FieldName="ValueDate" FieldNameID="EntryCustomField.ValueDate" LookupMainTable="False" MainTableLookupGroup="1" SkipRecordIfDataWillBeTruncated="False" IgnoreForMainTableLookupIfBlank="False" SkipIfBlank="False" TableMapping="Date of Last Demo Update" Format="" ValueConverter="None" CustomValueConverterCode="" CustomInputConverterCode="" IsLookup="False" />
+  </FieldMappings>
+</ImportFile>

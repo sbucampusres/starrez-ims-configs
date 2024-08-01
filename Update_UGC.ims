@@ -1,0 +1,52 @@
+<ImportFile MainTable="Entry" AllowCreate="False">
+  <TableMappings Length="5">
+    <TableMapping TableName="EntryProfile" Alias="UGC1_EntryProfile" AllowCreate="True" AlwaysCreate="False" IsLookup="False">
+      <LookupRules Length="2">
+        <TableLookupRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" LookupField="EntryID" LookupType="Field" SourceField="EntryID" />
+        <TableLookupRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" LookupType="Constant" SourceField="ProfileTypeID">
+          <LookupValue xsi:type="xsd:int">4</LookupValue>
+        </TableLookupRule>
+      </LookupRules>
+    </TableMapping>
+    <TableMapping TableName="EntryProfile" Alias="UGC2_RoomProfile" AllowCreate="True" AlwaysCreate="False" IsLookup="False">
+      <LookupRules Length="2">
+        <TableLookupRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" LookupField="EntryID" LookupType="Field" SourceField="EntryID" />
+        <TableLookupRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" LookupType="Constant" SourceField="ProfileTypeID">
+          <LookupValue xsi:type="xsd:int">3</LookupValue>
+        </TableLookupRule>
+      </LookupRules>
+    </TableMapping>
+    <TableMapping TableName="EntryProfile" Alias="UGC1WestEligibleEntry" AllowCreate="True" AlwaysCreate="False" IsLookup="False">
+      <LookupRules Length="2">
+        <TableLookupRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" LookupField="EntryID" LookupType="Field" SourceField="EntryID" />
+        <TableLookupRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" LookupType="Constant" SourceField="ProfileTypeID">
+          <LookupValue xsi:type="xsd:int">6</LookupValue>
+        </TableLookupRule>
+      </LookupRules>
+    </TableMapping>
+    <TableMapping TableName="EntryProfile" Alias="UGC2WestEligibleRoom" AllowCreate="True" AlwaysCreate="False" IsLookup="False">
+      <LookupRules Length="2">
+        <TableLookupRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" LookupField="EntryID" LookupType="Field" SourceField="EntryID" />
+        <TableLookupRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" LookupType="Constant" SourceField="ProfileTypeID">
+          <LookupValue xsi:type="xsd:int">5</LookupValue>
+        </TableLookupRule>
+      </LookupRules>
+    </TableMapping>
+    <TableMapping TableName="EntryProfile" Alias="SuiteEligible" AllowCreate="True" AlwaysCreate="False" IsLookup="False">
+      <LookupRules Length="2">
+        <TableLookupRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" LookupField="EntryID" LookupType="Field" SourceField="EntryID" />
+        <TableLookupRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" LookupType="Constant" SourceField="ProfileTypeID">
+          <LookupValue xsi:type="xsd:int">22</LookupValue>
+        </TableLookupRule>
+      </LookupRules>
+    </TableMapping>
+  </TableMappings>
+  <FieldMappings Length="6">
+    <FieldMapping IgnoreIfAdding="False" IgnoreIfUpdating="False" Field="EmplID" FieldIndex="0" Value="" Import="True" FieldName="ID1" FieldNameID="" LookupMainTable="True" MainTableLookupGroup="1" SkipRecordIfDataWillBeTruncated="False" IgnoreForMainTableLookupIfBlank="False" SkipIfBlank="False" TableMapping="" Format="" ValueConverter="None" CustomValueConverterCode="" CustomInputConverterCode="" IsLookup="False" />
+    <FieldMapping IgnoreIfAdding="False" IgnoreIfUpdating="False" Field="UGC" FieldIndex="1" Value="" Import="True" FieldName="ProfileItemID" FieldNameID="" LookupMainTable="False" MainTableLookupGroup="1" SkipRecordIfDataWillBeTruncated="False" IgnoreForMainTableLookupIfBlank="False" SkipIfBlank="True" TableMapping="UGC1_EntryProfile" Format="" ValueConverter="None" CustomValueConverterCode="" CustomInputConverterCode="if (input == &quot;ACH&quot;) {  return &quot;23&quot;;}&#xD;&#xA;else if (input ==&quot;GLS&quot;) {  return &quot;22&quot;;}&#xD;&#xA;else if (input ==&quot;HDV&quot;) {  return &quot;26&quot;;}&#xD;&#xA;else if (input ==&quot;ITS&quot;) {  return &quot;21&quot;;}&#xD;&#xA;else if (input ==&quot;LDS&quot;) {  return &quot;25&quot;;}&#xD;&#xA;else if (input ==&quot;SSO&quot;) {  return &quot;24&quot;;}&#xD;&#xA;else {return &quot;&quot;;}" IsLookup="False" />
+    <FieldMapping IgnoreIfAdding="False" IgnoreIfUpdating="False" Field="UGC" FieldIndex="1" Value="" Import="True" FieldName="ProfileItemID" FieldNameID="" LookupMainTable="False" MainTableLookupGroup="1" SkipRecordIfDataWillBeTruncated="False" IgnoreForMainTableLookupIfBlank="False" SkipIfBlank="True" TableMapping="UGC2_RoomProfile" Format="" ValueConverter="None" CustomValueConverterCode="" CustomInputConverterCode="if (input == &quot;ACH&quot;) {  return &quot;16&quot;;}&#xD;&#xA;else if (input ==&quot;GLS&quot;) {  return &quot;15&quot;;}&#xD;&#xA;else if (input ==&quot;HDV&quot;) {  return &quot;19&quot;;}&#xD;&#xA;else if (input ==&quot;ITS&quot;) {  return &quot;14&quot;;}&#xD;&#xA;else if (input ==&quot;LDS&quot;) {  return &quot;18&quot;;}&#xD;&#xA;else if (input ==&quot;SSO&quot;) {  return &quot;17&quot;;}&#xD;&#xA;else {return &quot;&quot;;}" IsLookup="False" />
+    <FieldMapping IgnoreIfAdding="False" IgnoreIfUpdating="False" Field="UGC" FieldIndex="1" Value="" Import="False" FieldName="ProfileItemID" FieldNameID="" LookupMainTable="False" MainTableLookupGroup="1" SkipRecordIfDataWillBeTruncated="False" IgnoreForMainTableLookupIfBlank="False" SkipIfBlank="True" TableMapping="UGC1WestEligibleEntry" Format="" ValueConverter="None" CustomValueConverterCode="" CustomInputConverterCode="if (input == &quot;West Eligible&quot;) {  return &quot;29&quot;;}&#xD;&#xA;else {return &quot;&quot;;}" IsLookup="False" />
+    <FieldMapping IgnoreIfAdding="False" IgnoreIfUpdating="False" Field="UGC" FieldIndex="1" Value="" Import="True" FieldName="ProfileItemID" FieldNameID="" LookupMainTable="False" MainTableLookupGroup="1" SkipRecordIfDataWillBeTruncated="False" IgnoreForMainTableLookupIfBlank="False" SkipIfBlank="True" TableMapping="UGC2WestEligibleRoom" Format="" ValueConverter="None" CustomValueConverterCode="" CustomInputConverterCode="if (input == &quot;West Eligible&quot;) {  return &quot;28&quot;;}&#xD;&#xA;else {return &quot;&quot;;}" IsLookup="False" />
+    <FieldMapping IgnoreIfAdding="False" IgnoreIfUpdating="False" Field="UGC" FieldIndex="1" Value="" Import="True" FieldName="ProfileItemID" FieldNameID="" LookupMainTable="False" MainTableLookupGroup="1" SkipRecordIfDataWillBeTruncated="False" IgnoreForMainTableLookupIfBlank="False" SkipIfBlank="True" TableMapping="SuiteEligible" Format="" ValueConverter="None" CustomValueConverterCode="" CustomInputConverterCode="if (input == &quot;Suite Eligible&quot;) {  return &quot;78&quot;;}&#xD;&#xA;else {return &quot;&quot;;}" IsLookup="False" />
+  </FieldMappings>
+</ImportFile>

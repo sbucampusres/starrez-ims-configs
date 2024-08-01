@@ -1,0 +1,7 @@
+<ImportFile MainTable="Booking" AllowCreate="False" RecordAttachment="222095">
+  <FieldMappings Length="3">
+    <FieldMapping IgnoreIfAdding="False" IgnoreIfUpdating="False" Field="Booking ID" FieldIndex="0" Value="" Import="True" FieldName="BookingID" FieldNameID="Booking.BookingID" LookupMainTable="True" MainTableLookupGroup="1" SkipRecordIfDataWillBeTruncated="False" IgnoreForMainTableLookupIfBlank="True" SkipIfBlank="False" TableMapping="" Format="" ValueConverter="None" CustomValueConverterCode="" CustomInputConverterCode="" IsLookup="False" />
+    <FieldMapping IgnoreIfAdding="False" IgnoreIfUpdating="False" Field="Booking Top Date" FieldIndex="1" Value="" Import="True" FieldName="CheckInDate" FieldNameID="Booking.CheckInDate" LookupMainTable="False" MainTableLookupGroup="1" SkipRecordIfDataWillBeTruncated="False" IgnoreForMainTableLookupIfBlank="False" SkipIfBlank="False" TableMapping="" Format="" ValueConverter="None" CustomValueConverterCode="" CustomInputConverterCode="" IsLookup="False" />
+    <FieldMapping IgnoreIfAdding="False" IgnoreIfUpdating="False" Field="AOM Comments" FieldIndex="2" Value="" Import="True" FieldName="CustomString7" FieldNameID="Booking.CustomString7" LookupMainTable="False" MainTableLookupGroup="1" SkipRecordIfDataWillBeTruncated="False" IgnoreForMainTableLookupIfBlank="False" SkipIfBlank="False" TableMapping="" Format="" ValueConverter="None" CustomValueConverterCode="" CustomInputConverterCode="" IsLookup="False" />
+  </FieldMappings>
+</ImportFile>
