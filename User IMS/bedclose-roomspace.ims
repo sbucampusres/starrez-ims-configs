@@ -1,0 +1,6 @@
+<ImportFile MainTable="RoomSpace" AllowCreate="False">
+  <FieldMappings Length="2">
+    <FieldMapping IgnoreIfAdding="False" IgnoreIfUpdating="False" Field="bedspace" FieldIndex="0" Value="" Import="True" FieldName="RoomSpaceID" FieldNameID="" LookupMainTable="True" MainTableLookupGroup="1" SkipRecordIfDataWillBeTruncated="False" IgnoreForMainTableLookupIfBlank="False" SkipIfBlank="False" TableMapping="" Format="" ValueConverter="None" CustomValueConverterCode="" CustomInputConverterCode="" IsLookup="True" SkipRecordIfLookupFails="True" LookupTable="RoomSpace" LookupField="Description" LookupFieldID="" LookupValueField="RoomSpaceID" LookupValueFieldID="" />
+    <FieldMapping IgnoreIfAdding="False" IgnoreIfUpdating="False" Field="" FieldIndex="" Value="4" Import="True" FieldName="RoomSpaceTypeEnum" FieldNameID="" LookupMainTable="False" MainTableLookupGroup="1" SkipRecordIfDataWillBeTruncated="False" IgnoreForMainTableLookupIfBlank="False" SkipIfBlank="False" TableMapping="" Format="" ValueConverter="None" CustomValueConverterCode="" CustomInputConverterCode="" IsLookup="False" />
+  </FieldMappings>
+</ImportFile>

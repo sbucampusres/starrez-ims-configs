@@ -1,0 +1,6 @@
+<ImportFile MainTable="EntryDetail" AllowCreate="False">
+  <FieldMappings Length="2">
+    <FieldMapping IgnoreIfAdding="False" IgnoreIfUpdating="False" Field="EMPLID" Value="" Import="True" FieldName="EntryID" LookupMainTable="True" MainTableLookupGroup="1" SkipRecordIfDataWillBeTruncated="False" IgnoreForMainTableLookupIfBlank="False" SkipIfBlank="False" TableMapping="" Format="" ValueConverter="None" CustomValueConverterCode="" CustomInputConverterCode="" IsLookup="True" SkipRecordIfLookupFails="True" LookupTable="Entry" LookupField="ID1" LookupValueField="EntryID" />
+    <FieldMapping IgnoreIfAdding="False" IgnoreIfUpdating="False" Field="Comments" Value="" Import="True" FieldName="Comments" LookupMainTable="False" MainTableLookupGroup="1" SkipRecordIfDataWillBeTruncated="False" IgnoreForMainTableLookupIfBlank="False" SkipIfBlank="False" TableMapping="" Format="" ValueConverter="None" CustomValueConverterCode="" CustomInputConverterCode="" IsLookup="False" />
+  </FieldMappings>
+</ImportFile>
